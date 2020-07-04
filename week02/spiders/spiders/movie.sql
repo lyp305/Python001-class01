@@ -1,0 +1,10 @@
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (171, '天气之子', '类型:爱情／动画／奇幻', '上映时间:2019-11-01', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (172, '误杀', '类型:剧情／犯罪', '上映时间:2019-12-13', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (173, '活着', '类型:灾难', '上映时间:2020-06-24', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (174, '唐人街探案2', '类型:喜剧／动作／悬疑', '上映时间:2018-02-16', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (175, '哪吒之魔童降世', '类型:动画／喜剧／奇幻', '上映时间:2019-07-26', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (176, '吹哨人', '类型:剧情／犯罪／悬疑', '上映时间:2019-12-06', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (177, '战狼2', '类型:动作／战争', '上映时间:2017-07-27', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (178, '少年的你', '类型:爱情／青春／剧情', '上映时间:2019-10-25', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (179, '野性的呼唤', '类型:剧情／冒险', '上映时间:2020-02-21', '2020-07-04 11:50:32');
+INSERT INTO movie(id, name, type, publish_date, create_date) VALUES (180, '毒液2', '类型:动作／科幻／惊悚／恐怖', '上映时间:2020-06-25', '2020-07-04 11:50:32');

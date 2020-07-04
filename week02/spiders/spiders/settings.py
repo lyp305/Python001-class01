@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for spiders project
+# Scrapy settings for proxyspider project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -60,10 +60,10 @@ DOWNLOAD_DELAY = 3
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'spiders.middlewares.RandomHttpProxyMiddleware': 100,
-   'spiders.middlewares.SpidersDownloaderMiddleware': 543,
-   'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
-   'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'spiders.middlewares.SpidersDownloaderMiddleware': 500,
+    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': None,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': 300,
+    'spiders.middlewares.RandomHttpProxyMiddleware': 450,
 }
 
 # Enable or disable extensions
@@ -78,10 +78,10 @@ ITEM_PIPELINES = {
    'spiders.pipelines.SpiderMysqlPipeline': 300,
 }
 
-# HTTP_PROXY_LIST = [
-#      'http://52.179.231.206:80',
-#      'http://95.0.194.241:9090',
-# ]
+HTTP_PROXY_LIST = [
+     'http://52.179.231.206:80',
+     'http://95.0.194.241:9090',
+]
 
 HTTPPROXY_AUTH_ENCODING='utf-8'
 
@@ -107,4 +107,3 @@ HTTPPROXY_AUTH_ENCODING='utf-8'
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-
